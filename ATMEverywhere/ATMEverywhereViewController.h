@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ServerCalls.h"
 
 @interface ATMEverywhereViewController : UIViewController
+@property IBOutlet UIImageView *pennImages;
+- (IBAction)signInPressed:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextField *email;
+@property (strong, nonatomic) IBOutlet UITextField *password;
 
 @end

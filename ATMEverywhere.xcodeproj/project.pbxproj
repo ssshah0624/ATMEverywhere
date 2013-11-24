@@ -21,6 +21,8 @@
 		414CC799184256C500E68AB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414CC77B184256C500E68AB3 /* UIKit.framework */; };
 		414CC7A1184256C500E68AB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 414CC79F184256C500E68AB3 /* InfoPlist.strings */; };
 		414CC7A3184256C500E68AB3 /* ATMEverywhereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 414CC7A2184256C500E68AB3 /* ATMEverywhereTests.m */; };
+		41877B46184273A9002CDE71 /* ServerCalls.m in Sources */ = {isa = PBXBuildFile; fileRef = 41877B45184273A9002CDE71 /* ServerCalls.m */; };
+		41877B58184274C2002CDE71 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41877B57184274C2002CDE71 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		414CC79E184256C500E68AB3 /* ATMEverywhereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ATMEverywhereTests-Info.plist"; sourceTree = "<group>"; };
 		414CC7A0184256C500E68AB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		414CC7A2184256C500E68AB3 /* ATMEverywhereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATMEverywhereTests.m; sourceTree = "<group>"; };
+		41877B44184273A9002CDE71 /* ServerCalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerCalls.h; sourceTree = "<group>"; };
+		41877B45184273A9002CDE71 /* ServerCalls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCalls.m; sourceTree = "<group>"; };
+		41877B57184274C2002CDE71 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +120,11 @@
 				414CC786184256C500E68AB3 /* ATMEverywhereAppDelegate.h */,
 				414CC787184256C500E68AB3 /* ATMEverywhereAppDelegate.m */,
 				414CC789184256C500E68AB3 /* Main.storyboard */,
+				41877B44184273A9002CDE71 /* ServerCalls.h */,
+				41877B45184273A9002CDE71 /* ServerCalls.m */,
 				414CC78C184256C500E68AB3 /* ATMEverywhereViewController.h */,
 				414CC78D184256C500E68AB3 /* ATMEverywhereViewController.m */,
+				41877B56184274C2002CDE71 /* Images */,
 				414CC78F184256C500E68AB3 /* Images.xcassets */,
 				414CC77E184256C500E68AB3 /* Supporting Files */,
 			);
@@ -150,6 +158,14 @@
 				414CC79F184256C500E68AB3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41877B56184274C2002CDE71 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				41877B57184274C2002CDE71 /* logo.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41877B58184274C2002CDE71 /* logo.png in Resources */,
 				414CC790184256C500E68AB3 /* Images.xcassets in Resources */,
 				414CC782184256C500E68AB3 /* InfoPlist.strings in Resources */,
 				414CC78B184256C500E68AB3 /* Main.storyboard in Resources */,
@@ -252,6 +269,7 @@
 			files = (
 				414CC78E184256C500E68AB3 /* ATMEverywhereViewController.m in Sources */,
 				414CC784184256C500E68AB3 /* main.m in Sources */,
+				41877B46184273A9002CDE71 /* ServerCalls.m in Sources */,
 				414CC788184256C500E68AB3 /* ATMEverywhereAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +479,7 @@
 				414CC7A8184256C500E68AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		414CC7A9184256C500E68AB3 /* Build configuration list for PBXNativeTarget "ATMEverywhereTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +488,7 @@
 				414CC7AB184256C500E68AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
